@@ -14,6 +14,8 @@
 		BEB9611413C3FB2E00F96C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB9611313C3FB2E00F96C4E /* main.m */; };
 		BEB9611813C3FB2E00F96C4E /* QuizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB9611713C3FB2E00F96C4E /* QuizAppDelegate.m */; };
 		BEB9611F13C3FB9A00F96C4E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB9611E13C3FB9A00F96C4E /* MainWindow.xib */; };
+		F342A5611470C6D1009A1652 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F342A5601470C6D1009A1652 /* Icon.png */; };
+		F342A5641470C6F8009A1652 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F342A5631470C6F8009A1652 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		BEB9611613C3FB2E00F96C4E /* QuizAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizAppDelegate.h; sourceTree = "<group>"; };
 		BEB9611713C3FB2E00F96C4E /* QuizAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizAppDelegate.m; sourceTree = "<group>"; };
 		BEB9611E13C3FB9A00F96C4E /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		F342A5601470C6D1009A1652 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F342A5631470C6F8009A1652 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 		BEB960F813C3FB2E00F96C4E = {
 			isa = PBXGroup;
 			children = (
+				F342A5631470C6F8009A1652 /* Icon@2x.png */,
+				F342A5601470C6D1009A1652 /* Icon.png */,
 				BEB9610D13C3FB2E00F96C4E /* Quiz */,
 				BEB9610613C3FB2E00F96C4E /* Frameworks */,
 				BEB9610413C3FB2E00F96C4E /* Products */,
@@ -145,6 +151,8 @@
 			files = (
 				BEB9611213C3FB2E00F96C4E /* InfoPlist.strings in Resources */,
 				BEB9611F13C3FB9A00F96C4E /* MainWindow.xib in Resources */,
+				F342A5611470C6D1009A1652 /* Icon.png in Resources */,
+				F342A5641470C6F8009A1652 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +238,7 @@
 				INFOPLIST_FILE = "Quiz/Quiz-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -243,6 +252,7 @@
 				INFOPLIST_FILE = "Quiz/Quiz-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
